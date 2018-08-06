@@ -7,7 +7,7 @@ const InputView = function () {
 //Make bindEvents function
 InputView.prototype.bindEvents = function () {
 
-//Declare the input as the number inputted - id  'text' on input form
+//Declare the input as the text inputted - id  'text' on input form
 const input = document.querySelector('#text')
 
 //add event listener, when there is an input do something (event)...
