@@ -13,8 +13,12 @@ ResultView.prototype.bindEvents = function () {
 
 ResultView.prototype.updateView = function (result) {
   const resultElement = document.querySelector('#result')
+  if (result){
   resultElement.textContent = `There are ${result} words`
-
+}
+else {
+  resultElement.textContent = `Please enter some words`
+}
 };
 
 module.exports = ResultView;
