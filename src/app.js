@@ -12,4 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const resultView = new ResultView();
   resultView.bindEvents();
+  const form = document.querySelector('#wordcounter-form')
+  form.reset();
+
 });
