@@ -12,9 +12,9 @@ ResultView.prototype.bindEvents = function () {
 };
 
 ResultView.prototype.updateView = function (result) {
-  const resultElement = document.querySelector('#result'){
-    resultElement.textContent = `There are ${result} words`
-  }
-
+  const resultElement = document.querySelector('#result')
+  resultElement.textContent = `There are ${result} words`
 
 };
+
+module.exports = ResultView;
